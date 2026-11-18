@@ -1,0 +1,27 @@
+providers:
+  - name: ovhcloud
+    model: "openai/Qwen3.8-27B"
+    api_base: "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1"
+    requires_key: false
+
+  - name: kilo
+    model: "openai/cohere/north-mini-code:free"
+    api_base: "https://api.kilo.ai/api/gateway"
+    requires_key: false
+
+  - name: groq
+    model: "groq/qwen/qwen3.8-27b"
+    env_key: "GROQ_API_KEY"
+    requires_key: true
+
+  - name: gemini
+    model: "gemini/gemini-3.5-flash-lite"
+    env_key: "GEMINI_API_KEY"
+    api_base: "https://generativelanguage.googleapis.com/v1beta/openai"
+    requires_key: true
+
+  - name: openrouter
+    model: "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
+    env_key: "OPENROUTER_API_KEY"
+    api_base: "https://openrouter.ai/api/v1"
+    requires_key: true

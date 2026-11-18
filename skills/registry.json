@@ -1,0 +1,47 @@
+{
+  "skills": [
+    {
+      "name": "repo_map",
+      "description": "Compact codebase map via AST/regex (zero token)",
+      "triggers": [
+        "/skill:repo_map",
+        "repo map",
+        "codebase map",
+        "repository map",
+        "repo structure",
+        "project structure overview"
+      ],
+      "script": "skills/repo_map.py",
+      "args": [],
+      "timeout": 30
+    },
+    {
+      "name": "log_trimmer",
+      "description": "Filter logs keeping only errors, warnings and stack traces",
+      "triggers": [
+        "/skill:log_trimmer",
+        "trim logs",
+        "filter logs",
+        "clean logs",
+        "extract errors"
+      ],
+      "script": "skills/log_trimmer.py",
+      "args": [],
+      "timeout": 15
+    },
+    {
+      "name": "git_diff_test",
+      "description": "Run targeted tests based on git status/diff",
+      "triggers": [
+        "/skill:git_diff_test",
+        "git diff test",
+        "targeted tests",
+        "which tests to run",
+        "tests for changed files"
+      ],
+      "script": "skills/git_diff_test.py",
+      "args": [],
+      "timeout": 150
+    }
+  ]
+}

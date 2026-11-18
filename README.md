@@ -1,4 +1,6 @@
-# TokenDiet — Devin Token Optimizer
+# TokenDiet — Devin Token Optimizer 
+
+Developed by Catusse
 
 > An OpenAI-compatible API proxy and context toolkit that **cuts token and ACU consumption** on Devin Desktop and Devin CLI, and on any other OpenAI-compatible client (Cursor, Continue, Python scripts, curl, ...).
 
